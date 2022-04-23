@@ -22,7 +22,7 @@
 
 body {
   max-width: 38.4rem;
-  height: 199.5rem;
+  max-height: 199.5rem;
   margin: auto;
 
  font-size: 1.6 rem;
@@ -32,6 +32,7 @@ header {
   max-width: 38.4rem;
   height: 27.9rem;
   background-color: var(--color-header);
+  margin: auto;
 
   font-family: var(--ff-heading);
   font-weight: 400;
@@ -49,7 +50,7 @@ header {
 }
 
 .purple-background {
-  width: 38.4rem;
+  width: 32.4rem;
   height: 4.9rem;
   background-color: var(--color-bg-h1);
   text-align: center;
@@ -61,8 +62,9 @@ header {
 
 main {
   max-width: 38.4rem;
-  height: 171.7rem;
+  height: 245rem;
   background-color: var(--color-bg-main);
+  margin: auto;
 
 }
 
@@ -80,8 +82,8 @@ main  p {
 
   font-family: var(--ff-texting);
   font-weight: 400;
-  font-size: 1.2rem;
-  line-height: 1.5rem;
+  font-size: 1.5rem;
+  line-height: 1.8rem;
   color: var(--color-main-p);
   text-align: center;
 
@@ -90,10 +92,7 @@ main  p {
 
 }
 
-.sorvete,
-.shakes,
-.massa,
-.picoles {
+figure {
   position: relative;
 }
 
@@ -105,7 +104,7 @@ figcaption {
   background-color: var(--color-bg-figcaption);
 
   position: absolute;
-  top: 1.6rem;
+  top: 2.6rem;
   left: 19.2rem;
   right: 1.6rem;
   bottom: 19.9rem;
@@ -121,11 +120,13 @@ figcaption {
 
 .shakes img,
 .massa img,
-.picoles img {
+.picoles img,
+.sorvete2 img,
+.picoles2 img {
   margin-top: 3.2rem;
 }
 
-img {
+.img-grid {
   /* transition: transform 20mms; */
   animation: move 2s;
 }
@@ -142,8 +143,14 @@ img {
 
 .shakes figcaption,
 .massa figcaption,
-.picoles figcaption {
+.picoles figcaption,
+.sorvete2 figcaption,
+.picoles2 figcaption {
   margin-top: 3.2rem;
+}
+
+footer {
+  display: none;
 }
 
 @keyframes move{
@@ -160,6 +167,130 @@ img {
   }
 }
 
+@media(min-width: 700px) {
+
+  body {
+    max-width: 100rem;
+  }
+
+  header {
+    max-width: 80rem;
+    padding-top: 35px;
+    box-sizing: border-box;
+  }
+
+  .purple-background {
+    width: 70rem;
+    height: 4.9rem;
+    margin: auto;
+    background-color: var(--color-bg-h1);
+    text-align: center;
+
+    box-sizing: border-box;
+    padding-top: 8px;
+   margin-bottom: 30px;
+  }
+
+  main {
+    max-width: 80rem;
+    max-height: 97rem;
+  
+  }
+
+  main  p {
+    max-width: 35rem;
+    height: 8rem;
+    font-size: 1.7rem;
+    line-height: 1.8rem;
+
+  }
+
+  .shakes img,
+  .massa img,
+  .picoles img,
+  .sorvete2 img,
+  .picoles2 img {
+    
+    margin-top: 0;
+  }
+
+  .shakes figcaption,
+  .massa figcaption,
+  .picoles figcaption,
+  .sorvete2 figcaption,
+  .picoles2 figcaption {
+    margin-top: 0;
+}
+
+  .images {
+    display: grid;
+    grid-gap: 3rem;
+    align-content: center;
+    justify-content: center;
+    grid-template-areas: "so so sha sha"
+                         "so so sha sha"
+                         "p1 p1 sha sha"
+                         "p1 p1 sha sha"
+                         "p1 p1 ma ma"
+                         "p1 p1 ma ma"
+
+  }
 
 
+  .sorvete {
+    grid-area: so;
+  }
 
+  .shakes {
+    grid-area: sha;
+  }
+
+  .massa {
+    grid: ma;
+  }
+
+  .picoles {
+    grid-area: p1;
+  }
+
+  .sorvete2 {
+    display: none;
+  }
+
+  .picoles2 {
+   display: none;
+  } 
+
+  footer {
+    display: block;
+  }
+  
+footer {
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 400;
+  font-size: 1.4rem;
+  line-height: 2.8rem;
+  /* letter-spacing: 5%; */
+  color: #4A4E69;
+  text-align: center;
+
+  max-width: 80rem;
+  margin: auto;
+  background-color: var(--color-bg-main);
+
+}
+
+footer a {
+  text-decoration: none;
+  color: #4A4E69;
+}
+
+footer span {
+  font-weight: bold;
+}
+
+}
+
+/* @media(min-width:1024px){
+
+} */
