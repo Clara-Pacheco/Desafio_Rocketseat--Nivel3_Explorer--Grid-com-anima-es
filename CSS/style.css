@@ -125,6 +125,16 @@ figcaption {
   text-align: center;
 }
 
+.img-grid-sorvete2 {
+  width:32rem;
+  height: 25rem;
+}
+
+.img-grid-picole2 {
+  width: 32rem;
+  height: 45rem;
+}
+
 .shakes img,
 .massa img,
 .picoles img,
