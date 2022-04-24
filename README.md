@@ -3,9 +3,9 @@
 <img width="150px" src="https://www.rocketseat.com.br/_next/image?url=%2Fassets%2Flogos%2Fexplorer.svg&w=256&q=75"  alt="">
 <br>
 <p align="center">
-<img src="https://img.shields.io/github/last-commit/Clara-Pacheco/-Explorer--Rocketseat--Projeto04?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/repo-size/Clara-Pacheco/-Explorer--Rocketseat--Projeto04?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
-<img src="https://img.shields.io/github/languages/count/Clara-Pacheco/-Explorer--Rocketseat--Projeto04?style=for-the-badge"/>
+<img src="https://img.shields.io/github/last-commit/Clara-Pacheco/ Desafio_Rocketseat--Nivel3_Explorer--Grid-com-animacoes?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/github/repo-size/Clara-Pacheco/Desafio_Rocketseat--Nivel3_Explorer--Grid-com-animacoes?style=for-the-badge"/>&nbsp;&nbsp;&nbsp;
+<img src="https://img.shields.io/github/languages/count/Clara-Pacheco/Desafio_Rocketseat--Nivel3_Explorer--Grid-com-animacoes?style=for-the-badge"/>
 </p>
 </div>
 
