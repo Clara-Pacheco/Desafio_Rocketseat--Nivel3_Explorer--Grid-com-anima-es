@@ -131,6 +131,7 @@ figcaption {
 .sorvete2 img,
 .picoles2 img {
   margin-top: 3.2rem;
+  border-radius: 8px;
 }
 
 .img-grid {
@@ -343,6 +344,10 @@ footer span {
 
   .purple-background {
     width: 38rem;
+    font-family: 'Staatliches',sans-serif;
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 3.4rem;
   }
 
   main {
@@ -368,6 +373,7 @@ footer span {
   .img-grid-sorvete2 {
     width: 22rem;
     height: 15rem;
+    object-fit: fill;
 
   }
 
@@ -376,6 +382,7 @@ footer span {
   .img-grid-picole2 {
     width: 22rem;
     height: 35rem;
+    object-fit: cover;
 
   }
 
