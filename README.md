@@ -34,9 +34,9 @@ no decorrer do programa <b>Explorer</b>.
 
 📅 **23.04.2022**
 
-🕛 **Status:** Em andamento✔️
+🕛 **Status:** Concluído✔️
 
-🌎 **Result Preview: [Veja o Projeto]()**
+🌎 **Result Preview: [Veja o Projeto](https://clara-pacheco.github.io/Desafio_Rocketseat--Nivel3_Explorer--Grid-com-animacoes/)**
 
 ☑️ **Task:** Construir um site estático a partir do projeto feito no [Figma](https://www.figma.com/?msclkid=693c810ebe8911eca011029d246e9391).
 
